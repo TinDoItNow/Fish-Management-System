@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2023, 2:50:27 AM
+    Author     : Admin
+*/
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins';
+    font-size: 15px;
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    position: relative;
+    background: url("../images/background.jpg") repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+section {
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+    display: box;
+}
+
+img {
+    width: 290px;
+    height: 230px;
+}
+
+header, section, footer, nav, ul{
+    float: left;
+    width: 100%;
+}
+
+header li{
+    width: 10%;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin-left:  4%;
+    margin-right:  4%;
+    border: 0;
+    margin-top: 5%;
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 1.1em;
+}
+
+header li a:hover{
+    background-color: #e1f5eb;
+    color: appworkspace;
+    cursor: pointer;
+}
+
+header li:last-child{
+    margin-left: 70.5%;
+}  
+
+header ul{
+    position: absolute;
+    display: inline;
+    float: left;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+header, nav, footer{
+    height: 100px;
+}
+section{
+    height: auto;
+    text-align: center;
+    margin-top: 150px;
+    display: box;
+}
+
+a{
+    color: darkslategray;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding:10px 2%;
+    border-radius: 50px 50px;
+    font-family: 'Poppins';
+}
+summary a{
+    color: #99ffcc;
+}
+
+.formsearch{
+    padding-top: 50px;
+}
+.formsearch button, .shopping button, .button{
+    color: graytext;
+    background-color: #e1f5eb;
+    border-radius: 10px;
+}
+.formsearch button:hover, .shopping button:hover, .button:hover{
+    color: graytext;
+    background-color: #e1f5eb;
+    cursor: pointer;
+}
+.formsearch select{
+    border-color: #e1f5eb;
+    border-style: outset dotted;
+    border-radius: 10px;
+}
+.formsearch select:hover{
+    color: graytext;
+    background-color: #e1f5eb;
+    border-color: lightcyan;
+}
+.formsearch select option{
+    color: graytext;
+    background-color: #e1f5eb;
+}
+.formsearch select option:target{
+    color: graytext;
+    background-color: #e1f5eb;
+}
+.formsearch input[type=text]{
+    border: none;
+    color: graytext;
+    background-color: #e1f5eb;
+    border-bottom: 2px solid lightcyan;
+    border-radius: 20px;
+}
+
+.form table{width: 50%;}
+
+.product{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 3%;
+    background-color: #e1f5eb;
+}
+.productable tr:first-child{
+    background-color: #e1f5eb;
+    width: 100%;
+    padding-right: 300%;
+    padding-left: 300%;
+    display: inline-table;
+}
+
+.productable tr:first-child td{
+    margin-left: 100%;
+    margin-right: 100px;       
+}
+
+.plantimg{     
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color:#e1f5eb;
+
+}
+.updatebutton button{
+    position: inherit;
+    display: inline-block;  
+    color: graytext;
+    background-color: #e1f5eb;
+    border: buttonshadow solid;
+}
+.updatebutton div{
+    display: none;
+    position: absolute;
+    background-color: #cccccc;
+}
+.updatebutton div p{
+    display: block;
+}
+.updatebutton:hover.updatebutton div{
+    display: block;
+}
+
+.updatebutton button:hover{
+    color: graytext;
+    background-color: #e1f5eb;
+}
+.updatebutton:hover{
+    color: graytext;
+}
+.shopping{
+    border: graytext solid;
+    border-collapse: collapse;
+}
+.shopping th{
+    color: graytext;
+    background-color: #e1f5eb;
+    border: #e1f5eb solid;
+}
+
+.shopping td{  
+    color: graytext;
+    background-color: #e1f5eb;
+    border: #e1f5eb solid;
+}
+.shopping a{
+    color: graytext;
+}
+.order { color: #e1f5eb; border: 3px groove #56e6f0; width:100%; text-align: center; justify-content: space-between; font-family: 'Poppins', sans-serif; font-size: 2.2em}
+.order tr:first-child{ width:100%; background-color:#e1eee7 ; color: black}
+.order td{ border: 1px solid #e1f5eb; color: #e1f5eb; width: 15%; text-align: center}
+.order a{
+    color: #e1f5eb;
+    padding: 0 1%;
+}
+.order a:hover{
+    color: #99ffcc;
+    background-color: coral;
+}
+/*.order1 { color: #e1f5eb; border: 3px solid #56e6f0; width:100%; margin: 1%; text-align: center; justify-content: space-between; font-family: 'Poppins', sans-serif; font-size: 2em}
+.order1 tr:first-child{ width:100%; background-color:#e1eee7 ; color: black;}
+.order1 td{ border: 1px solid #e1f5eb; color: #e1f5eb; width: 15%; text-align: center}
+.order1 a{
+    color: #e1f5eb;
+    padding: 0 1%;
+}*/
+
+/*.displaytable,td,th{
+    border: 1px solid #e1f5eb;
+    color: graytext;
+    background-color: #e1f5eb;
+    text-align: center;
+}
+.displaytable{
+    width: 100%;
+}
+.displaytable a{
+    color: graytext;
+    padding: 0 1%;
+}
+.displaytable a:hover{
+    color: #ff0000;
+    background-color: coral;
+}*/

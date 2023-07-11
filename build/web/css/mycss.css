@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2023, 2:52:45 AM
+    Author     : Admin
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-family: 'Poppins';
+    font-size: 15px;
+    overflow-x: hidden;
+}
+body{
+    background: url("../images/2.jpg") no-repeat;
+    background-size: cover;
+    color: lightpink;
+}
+header,section,footer,nav,ul{
+    float: left;width: 100%;
+    
+}
+header ul{
+    position: absolute;
+    display: inline;
+    float: right;
+    margin-top: 5%;
+    padding-left: 15%;
+}
+header,nav,footer{
+    height: 100px;
+}
+section{
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+header li{    
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin-left:  4%;
+    margin-right:  4%;
+    border: 0;
+    margin-top: 5%;
+    background-color: tan;
+    border-radius: 10px;
+    padding-top: 5px;
+ 
+}
+.formsearch{
+    padding-top: 50px; 
+}
+.formsearch button,.shopping button,.button{
+    color: graytext;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+.formsearch button:hover,.shopping button:hover,.button:hover{
+    color: graytext;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+.formsearch select{
+    border-color: #ccff99;
+    border-style: outset dotted;
+    border-radius: 20px;
+}
+.formsearch select:hover{
+    color: graytext;
+    background-color: linen;
+    border-color: #ccff99;
+}
+.formsearch select option{
+    color: graytext;
+    background-color: linen;
+}
+.formsearch select option:target{
+    color: graytext;
+    background-color: papayawhip;
+}
+.formsearch input[type=text]{
+  border: none;
+  color: graytext;
+  background-color: #e1eee7;
+  border-bottom: 2px solid gray;
+  border-radius: 20px;
+}
+
+a{
+    color: honeydew;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding:10px 2%;
+    border-radius: 50px 50px;
+    font-family: cursive;   
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: #e1eee7 10px;
+}
+#logo:hover{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 0;
+    border: #e1eee7 10px;
+}
+header li a:hover{
+    background-color: linen;
+    color: graytext;
+    cursor: pointer;
+}
+.tableregister table tr td{
+    display: block;
+}
+.product{
+    width: 20%;
+    height: 20%;
+    background-color: linen;
+}
+.productable tr:first-child{
+    background-color: #e1f5eb;
+    width: 100%;
+    padding-right: 300%;
+    padding-left: 300%;
+    display: inline-table;   
+}
+
+.productable tr:first-child td{
+    margin-left: 100%;
+    margin-right: 100px;       
+}
+.displaytable img{
+    width: 260px;
+    height: 300px;
+    border-radius: 50px;
+}
+.displaytable{
+    margin: 50px; display: inline-block;
+    background-color: linen;
+    border-radius: 50px;
+    border: grey solid;
+    
+}
+.displaytable a{
+    color: graytext;
+    padding: 0 1%;
+}
+.displaytable a:hover{
+    color: #ff0000;
+    background-color: coral;
+}
+.displaytable td{
+   display: block;
+}
+.displaytable td:first-child{
+    padding: 20px ;padding-bottom: 0; display: block;
+}
+.plantimg{     
+    width: 25%;
+    height: 25%;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: linen;
+    
+}
+.updatebutton button{
+    position: inherit;
+    display: inline-block;  
+    color: #e1f5eb;
+    background-color: #e1eee7;
+    border: buttonshadow solid;
+}
+.updatebutton div{
+    display: none;
+    position: absolute;
+    background-color: #e1eee7;
+}
+.updatebutton div p{
+    display: block;
+}
+.updatebutton:hover.updatebutton div{
+    display: block;
+}
+
+.updatebutton button:hover, .updatebutton:hover{
+    background-color: #e1eee7;
+             
+}
+.shopping{
+    border: gray solid;
+    border-collapse: collapse;
+}
+.shopping th{
+    color: azure;
+    background-color: #cccccc;
+    border: gray solid;
+}
+
+.shopping td{
+    background-color: linen;
+    color: graytext;
+    border: gray solid;
+}
+.shopping a{
+    color: graytext;
+}
+
+
